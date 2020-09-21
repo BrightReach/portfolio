@@ -7,7 +7,6 @@ import Contact from '../components/contact';
 import FeaturedProjects from '../components/featured-projects';
 import Hero from '../components/hero';
 import Layout from '../components/layout';
-import RecentPosts from '../components/recent-posts';
 import SEO from '../components/seo';
 import { indexMenuLinks } from '../components/_config/menu-links';
 
@@ -25,10 +24,9 @@ const Index = ({ data }) => {
     <Layout menuLinks={indexMenuLinks}>
       <SEO title="Home" />
       <Hero data={heroData} />
-      <About data={data.about} />
-      <CardGrid cards={data.cards.frontmatter.cards} description={data.cards.html} title="Our Features" id="features" />
+      <About data={data.about} link />
+      <CardGrid cards={data.cards.frontmatter.cards} description={data.cards.html} title="My Skills" id="features" />
       <FeaturedProjects featured={data.featuredProjects.nodes} />
-      <RecentPosts data={data.blog.edges} />
       <Contact data={data.contact} />
     </Layout>
   );
@@ -69,6 +67,8 @@ export const query = graphql`
             }
           }
         }
+        cta_link
+        cta_label
       }
       html
     }

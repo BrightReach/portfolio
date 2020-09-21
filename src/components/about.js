@@ -4,6 +4,7 @@ import React from 'react';
 import TechList from './tech-list';
 import { mq } from './_shared/media';
 import { StyledH1, StyledH2 } from './_shared/styled-headings';
+import ButtonLink from './links/button-link';
 import { StyledStaticImageContainer } from './_shared/styled-image-container';
 import { StyledSection } from './_shared/styled-section';
 
@@ -23,7 +24,7 @@ const StyledTextSection = styled.section`
 
 const About = ({ data }) => {
   const {
-    frontmatter: { title, techs, about_image },
+    frontmatter: { title, techs, about_image, cta_link, cta_label },
     html,
   } = data;
 
@@ -42,6 +43,7 @@ const About = ({ data }) => {
           <StyledH2>{title}</StyledH2>
           <StyledTextSection dangerouslySetInnerHTML={{ __html: html }} />
           <TechList techs={techs} />
+          <ButtonLink label={cta_label} link={cta_link} />
         </div>
       </StyledAboutContainer>
     </StyledSection>

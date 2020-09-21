@@ -1,7 +1,9 @@
 ---
-title: 'The Gatsby starter that makes developer dreams come true!'
+title: 'Let me tell you a tale...'
 about_image: './me.jpg'
-techs: ['Gatsby', 'Javascript', 'React', 'GraphQL', 'Emotion', 'Stylus']
+techs: ['C#', 'Unity3D', 'Gatsby', 'Javascript', 'React', 'SASS', Node.js, PHP]
+cta_link: 'https://github.com/Knochenmark/gatsby-starter-level-2/blob/master/README.md'
+cta_label: 'Curriculum Viate'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas sit amet arcu tincidunt fermentum. Mauris ac nisl nibh. Etiam nunc eros, blandit vel eros laoreet, accumsan lacinia turpis.

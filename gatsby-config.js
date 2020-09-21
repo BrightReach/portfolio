@@ -4,8 +4,8 @@ module.exports = {
     title: 'Level 2',
     titleTemplate: '%s · Level 2',
     image: '/images/logo.png',
-    author: 'Max Mustermann',
-    description: 'Gatsby starter to quickly setup your portfolio and boost it to the next level.',
+    author: 'Craig Taylor',
+    description: 'Craig Taylor - Front End/Unity Developer and Composer',
     url: 'https://knochenmark.github.io',
     paginationPageSize: 4, // Amount of posts displayed per listing page.
   },
