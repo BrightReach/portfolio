@@ -6,8 +6,10 @@ cta_link: 'https://github.com/Knochenmark/gatsby-starter-level-2/blob/master/REA
 cta_label: 'Curriculum Viate'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas sit amet arcu tincidunt fermentum. Mauris ac nisl nibh. Etiam nunc eros, blandit vel eros laoreet, accumsan lacinia turpis.
+Game Designer, Developer, Musician, Creative, Entreprenur, Dreamer.
 
-Phasellus ut sagittis eros. Curabitur quis libero consequat, iaculis dolor sollicitudin, ultricies ligula. Donec sodales sed ex a fermentum. Quisque vitae efficitur odio, non aliquam sapien.
+Born and raised at South East of London who was inspired by his uncle, Eric Bailey's <i>(The Incredible Hulk 1994, Black and White, Life for Speed)</i> career as a illustrator/designer/animator in the video games industry to pursue his own dreams to become a known video game designer.
 
-Proin egestas luctus ornare. Donec maximus est lobortis, pharetra dolor in, convallis lorem. Duis ut erat in lectus faucibus iaculis. In tincidunt laoreet ante, vel pellentesque risus lacinia eu.
+Started without any GCSEs, he went from Level 1 BTEC Introductory Diploma in IT @ Work to completed his BA(hons) in Game Design with first class honours. The journey of video games development appeared to be a lengthy one without any signs of progression. With the competetion of the industy heated up with little chances of entry, the IT industry became a focal point to improve his software development skills.
+
+And so begins the journey of self-learning from different learning platform including Udacity to the point where he felt complaent to pursue his ambitions further in this IT industry and by extension the games industry.
