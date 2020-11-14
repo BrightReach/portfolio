@@ -14,6 +14,7 @@ const StyledHeader = styled.header`
   background-color: var(--bg-content-color);
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-left);
+  z-index: 20;
 `;
 const StyledContainer = styled.div`
   display: flex;
@@ -32,7 +33,7 @@ const StyledLogo = styled(Logo)`
   fill: var(--title-color);
 
   &:hover path.level-2 {
-    fill: var(--primary-color);
+    fill: var(--secondary-color);
   }
 `;
 const StyledNav = styled.nav`
@@ -49,7 +50,7 @@ const StyledNav = styled.nav`
   & > a {
     color: var(--title-color);
     &:hover {
-      color: var(--primary-color);
+      color: var(--secondary-color);
     }
   }
 `;

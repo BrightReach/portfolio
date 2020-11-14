@@ -43,7 +43,7 @@ const About = ({ data }) => {
           <StyledH2>{title}</StyledH2>
           <StyledTextSection dangerouslySetInnerHTML={{ __html: html }} />
           <TechList techs={techs} />
-          <ButtonLink label={cta_label} link={cta_link} />
+          <ButtonLink label={cta_label} link={cta_link} download />
         </div>
       </StyledAboutContainer>
     </StyledSection>

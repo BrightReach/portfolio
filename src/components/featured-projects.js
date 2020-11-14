@@ -3,7 +3,7 @@ import Img from 'gatsby-image';
 import PropTypes from 'prop-types';
 import React from 'react';
 import Icon from './icon';
-import TextLink from './links/text-link';
+//import TextLink from './links/text-link';
 import TechList from './tech-list';
 import { mq } from './_shared/media';
 import { StyledContentLink } from './_shared/styled-content-link';
@@ -65,6 +65,11 @@ const StyledLinkContainer = styled.section`
     margin: 0 0.5rem;
   }
 `;
+
+const FeaturedSection = styled(StyledSection)`
+  margin-bottom: 0px;
+`;
+
 const StyledArchiveContainer = styled.div`
   ${flexCenter};
   width: 100%;
@@ -119,13 +124,10 @@ const FeaturedProjects = ({ featured }) => {
   });
 
   return (
-    <StyledSection id="projects">
+    <FeaturedSection id="projects">
       <StyledH1>Featured Projects</StyledH1>
       {featuredProjects}
-      <StyledArchiveContainer>
-        <TextLink label="View More Projects" link="/projects" />
-      </StyledArchiveContainer>
-    </StyledSection>
+    </FeaturedSection>
   );
 };
 

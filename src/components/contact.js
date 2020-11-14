@@ -4,6 +4,17 @@ import Icon from './icon';
 import { mq } from './_shared/media';
 import { StyledH1 } from './_shared/styled-headings';
 import { StyledSection } from './_shared/styled-section';
+import Logo from '../assets/qr-code.svg';
+
+const StyledLogo = styled(Logo)`
+  width: var(--header-height);
+  height: var(--header-height);
+  fill: var(--title-color);
+
+  &:hover path.level-2 {
+    fill: var(--primary-color);
+  }
+`;
 
 const StyledContactSection = styled(StyledSection)`
   margin-bottom: 70px;
@@ -69,9 +80,9 @@ const Contact = ({ data }) => {
         <StyledContacts>
           {address && (
             <StyledContainer>
-              <Icon icon="building" />
+              <Icon icon="home" />
               <StyledFormContainer>
-                <StyledForm>Office Location</StyledForm>
+                <StyledForm>Home Location</StyledForm>
                 <span>{address}</span>
               </StyledFormContainer>
             </StyledContainer>
@@ -81,7 +92,7 @@ const Contact = ({ data }) => {
               <Icon icon="paper-plane" />
               <StyledFormContainer>
                 <StyledForm>My E-Mail</StyledForm>
-                <span>{email}</span>
+                <span dangerouslySetInnerHTML={{ __html: email }} />
               </StyledFormContainer>
             </StyledContainer>
           )}
@@ -90,12 +101,25 @@ const Contact = ({ data }) => {
               <Icon icon="mobile-alt" />
               <StyledFormContainer>
                 <StyledForm>Phone Number</StyledForm>
-                <span>{phone}</span>
+                <span dangerouslySetInnerHTML={{ __html: phone }} />
               </StyledFormContainer>
             </StyledContainer>
           )}
         </StyledContacts>
       </StyledContactSection>
+      <StyledSection>
+        <StyledLogo />
+        <div>
+          Icons made by{' '}
+          <a href="https://www.flaticon.com/authors/pixelmeetup" title="Pixelmeetup">
+            Pixelmeetup
+          </a>{' '}
+          from{' '}
+          <a href="https://www.flaticon.com/" title="Flaticon">
+            www.flaticon.com
+          </a>
+        </div>
+      </StyledSection>
     </React.Fragment>
   );
 };

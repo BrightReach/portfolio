@@ -50,10 +50,10 @@ const StyledNavLink = styled(Link)`
     }
   }
   &:hover {
-    color: var(--primary-color) !important;
+    color: var(--secondary-color) !important;
 
     & > svg {
-      fill: var(--primary-color);
+      fill: var(--secondary-color);
     }
   }
 `;

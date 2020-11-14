@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { keyframes } from '@emotion/core';
 import PropTypes from 'prop-types';
 import React from 'react';
 import ButtonLink from './links/button-link';
@@ -9,22 +10,50 @@ import Particles from 'react-tsparticles';
 
 const Background = styled(Particles)`
   position: absolute;
-  width: 100%;
   height: 100%;
-  background-position: 50% 50%;
+  width: 100%;
   background-size: cover;
+  background-position: 50%;
   z-index: -99;
+`;
+
+const fadeIn = keyframes`
+0%{
+opacity: 0;
+translate
+}
+100%{
+ opacity: 1;
+}
 `;
 
 const StyledHeroSection = styled(StyledSection)`
   z-index: 1;
   min-height: calc(100vh - 2 * var(--header-height));
   position: relative;
-
+  margin: 0;
+  width: 100%;
   ${mq.gt.sm} {
+    max-width: 100%;
     min-height: calc(100vh - var(--header-height));
   }
 `;
+
+const HeroContainer = styled.div`
+  max-width: 700px;
+  margin: 0 auto;
+  a {
+    display: inline-flex;
+  }
+  animation: ${fadeIn} 1s ease-out;
+  animation-fill-mode: forwards;
+
+  ${mq.lt.sm} {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+`;
+
 const StyledIntroduction = styled.div`
   color: var(--primary-color);
   font-weight: normal;
@@ -68,7 +97,7 @@ const Hero = ({ data }) => {
         options={{
           background: {
             color: {
-              value: '#0d47a1',
+              value: '#2f3061',
             },
           },
           fpsLimit: 60,
@@ -144,12 +173,14 @@ const Hero = ({ data }) => {
           detectRetina: true,
         }}
       />
-      <StyledIntroduction>{introduction}</StyledIntroduction>
-      <StyledAuthor>{author}</StyledAuthor>
-      <StyledTagline>{tagline}</StyledTagline>
-      <StyledDescription dangerouslySetInnerHTML={{ __html: description }} />
-      <ButtonLink label={ctaLabel} link={ctaLink} />
-      <ScrollIndicator />
+      <HeroContainer>
+        <StyledIntroduction>{introduction}</StyledIntroduction>
+        <StyledAuthor>{author}</StyledAuthor>
+        <StyledTagline>{tagline}</StyledTagline>
+        <StyledDescription dangerouslySetInnerHTML={{ __html: description }} />
+        <ButtonLink label={ctaLabel} link={ctaLink} />
+        <ScrollIndicator />
+      </HeroContainer>
     </StyledHeroSection>
   );
 };

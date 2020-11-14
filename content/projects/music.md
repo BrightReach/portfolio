@@ -2,7 +2,7 @@
 featured: true
 date: '2014-08-14'
 title: 'Final Year University Soundtracks'
-cover_image: './images/notebook.jpg'
+cover_image: './images/P3Hgtn9-music-desktop-background.jpg'
 demo_link: 'https://soundcloud.com/kurayami311/pandoras-blox-showreel'
 techs: ['FL Studio', 'Orchestral', 'Jazz', 'Latin', 'Electronic', 'Drum & Bass', 'Trance', 'Techno']
 ---

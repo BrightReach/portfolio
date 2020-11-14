@@ -2,8 +2,8 @@
 featured: true
 date: '2020-04-28'
 title: 'Capstone - An Udacity project'
-cover_image: './images/motherboard.jpg'
-repo_link: 'https://github.com/Knochenmark/minesweeper'
+cover_image: './images/Udacity_logo.png'
+repo_link: 'https://github.com/BrightReach/capstone'
 techs: ['HTML', 'CSS', 'SASS', 'Javascript', 'Node.js', 'Express.js', 'Webpack']
 ---
 
