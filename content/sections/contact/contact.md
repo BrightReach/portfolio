@@ -4,6 +4,4 @@ email: '&#099;&#114;&#097;&#105;&#103;&#116;&#097;&#121;&#108;&#111;&#114;&#056;
 address: 'South East London (Avalible upon request)'
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy [Link to issues](https://github.com/Knochenmark/gatsby-starter-level-2/issues) tempor invidunt ut labore
-et dolore magna aliquyam erat, sed diam voluptua.
+If you wish to contact me for future employment or to hire me for any contractual work, feel free to contact me via mobile phone or email and leave your name, your business and your purpose for contacting me.
