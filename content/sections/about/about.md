@@ -2,7 +2,7 @@
 title: 'Let me tell you a tale...'
 about_image: './portrait1.jpg'
 techs: ['C#', 'Unity3D', 'Gatsby', 'Javascript', 'React', 'SASS', Node.js, PHP]
-cta_link: './static/1b4f0cc3dfb8515d8c7f74c26536717a/CV-Craig Taylor.pdf'
+cta_link: 'https://github.com/BrightReach/portfolio/blob/master/content/sections/about/CV-Craig%20Taylor.pdf'
 cta_label: 'Read More on CV'
 ---
 
