@@ -1,8 +1,8 @@
 module.exports = {
   pathPrefix: '/gatsby-starter-level-2',
   siteMetadata: {
-    title: 'Level 2',
-    titleTemplate: '%s · Level 2',
+    title: 'Craig Taylor',
+    titleTemplate: '%s · Craig Taylor',
     image: '/images/logo.png',
     author: 'Craig Taylor',
     description: 'Craig Taylor - Front End/Unity Developer and Composer',
@@ -83,12 +83,13 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/logo.png`, // This path is relative to the root of the site.
+        background_color: `#6290C8`,
+        theme_color: `#6290C8`,
+        display: `broswer`,
+        icon: `src/images/qr-code.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-offline`,
     {
       resolve: 'gatsby-plugin-react-svg',
       options: {
