@@ -7,4 +7,4 @@ repo_link: 'https://github.com/BrightReach/DungeonEscape'
 techs: ['Unity3D', 'C#']
 ---
 
-As part of the Udemy Unity 2D Mobile Development course, I developed a 2D action game that would work on the mobile platform. While I have completed the task given to me, I intend on developing the game's mechanic further to the point where it was remenise the Metroidvania gameplay.
+As part of the Udemy Unity 2D Mobile Development course, I developed a 2D action game that would work on the mobile platform. While I have completed the task given to me, I intend on developing the game's mechanic further to the point where it was reminisce the Metroidvania gameplay.
