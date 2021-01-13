@@ -8,7 +8,7 @@ cta_label: 'Read More on CV'
 
 Game Designer, Developer, Musician, Creative, Entrepreneur, Dreamer.
 
-Born and raised at South East of London. I was interested in video games and computers before I was inspired by my uncle's <i>(The Incredible Hulk 1994, Black and White, Live for Speed)</i> career as a illustrator/designer/animator in the video games industry to pursue my own dreams to become a renown video game designer.
+Born and raised at South East of London. I was interested in video games and computers before I was inspired by my uncle's <i>(The Incredible Hulk 1994, Black and White, Live for Speed)</i> career as a illustrator/designer/animator in the video games industry to pursue my own dreams to become a renowned video game designer.
 
 During my years in university, I taken part at GameJams where I collaborated and learnt from different developers from other universities. As a Sound Designer/Programmer in one of the projects, I created sound effects and composed two pieces of music with different texture layers that plays alongside each other based on the game's progression. After using the audio engine to implement the sound effects and music, I was able to adapt to the team's coding practices to implement my audio code into the game. That effort earned me a Best Sound award and my contribution got us 2nd place in the GameJam.
 
